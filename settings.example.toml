@@ -1,0 +1,200 @@
+data_dir = "data"
+timezone = "Asia/Shanghai"
+
+[polling]
+request_interval_s = 3.0
+jitter_pct = 0.3
+# Each round now costs one authenticated request (refreshes every order's YouPin-reported
+# rank) plus verify_sample_size sampled public-queue checks, instead of one public-queue
+# request per order - so a round is cheap and finishes in well under a minute even at
+# hundreds of orders. 5 minutes is a sensible default; feel free to tune it down further
+# if you want fresher ranks (and your hourly_request_cap headroom allows it).
+round_interval_min = 5
+# Pass B's near-threshold sampling priority (see Monitor._select_verify_targets): an
+# active order whose reported_rank is at or below this is sampled every round, ahead of
+# the least-recently-verified rotation.
+fast_lane_rank_threshold = 5
+# Quiet-hours cadence: during local time [night_start_hour, night_end_hour) - wraps past
+# midnight if night_start_hour > night_end_hour - the round is skipped until
+# night_multiplier x round_interval_min minutes have elapsed since the last one that ran.
+night_start_hour = 0
+night_end_hour = 8
+night_multiplier = 2.0
+hourly_request_cap = 300
+heartbeat_interval_min = 30
+visible_limit = 20
+# Pass B: each round, re-derive this many orders' ranks the old way (public queue +
+# compute_rank) and compare against YouPin's own reported rank, to catch a silent change
+# in what YouPin's "rank" field means. 0 disables pass B entirely.
+verify_sample_size = 5
+verify_enabled = true
+# 公开求购队列匿名只给前 20 条（pageIndex/pageSize 都被忽略）。带 token 请求时 pageSize 才真的
+# 生效，能一次取回整个队列——这是把"排在前 20 名之外的自己的单"算出排名的唯一办法。
+# 只在"匿名那一页装满了、却没找到自己"时才升级成认证请求：认证请求是拿账号在换深度，风控盯的
+# 正是账号。0 关闭这个兜底。
+deep_page_size = 200
+# 市场价（在售最低价）刷新：每轮抽几张单去查一次。和 verify_* 是两套独立的开关与轮换——
+# pass B 验证的是"排名语义"，这里补的是"值不值得抢"要用的那个数字。0 关闭。
+# 注意它是抽样轮换的：一张单的市场价可能是前几轮查到的，看板上鼠标悬停能看到查询时间。
+sell_sample_size = 5
+
+[alerts]
+enter_rank = 2
+exit_rank = 4
+confirm_rounds = 2
+group_wait_s = 60
+hourly_cap = 10
+# 差价倍数（最高价 / 我的价）达到或超过这个值时，即使排名进了前 enter_rank 名也不告警——差太多说明
+# 抢不过，告警没有行动价值；设为 0 关闭这个过滤。
+max_gap_ratio = 3.0
+# 离市价太远也不告警、不进简报、看板可隐藏（「难以成交」）：市价（悠悠在售最低；没人在卖时用别处买盘）
+# 达到我的价的 max_market_ratio 倍，且差价不低于 min_market_gap 元。倍数设为 0 关闭这条。
+max_market_ratio = 2.0
+min_market_gap = 20
+# 推送之前，拿公开队列把即将告警的那几张单的排名和榜首价现算一遍。
+# 为什么要：悠悠在「我的求购单」里给的 rank / 榜首价不是实时算的，在有自动改价机器人的队列里
+# 会落后几分钟（2026-09-21 实测：悠悠说第 2 名、榜首 351，实时队列却是 352 / 351 / 我的 158，
+# 实际第 3 名）。告警整个建在那个值上，而滞后最严重的恰好是最值得抢的那些队列。
+# 只核对"进了 enter_rank 带、且还没在告警中"的单，所以每轮多打的请求是个位数。
+confirm_with_live_queue = true
+# 每轮最多核对几张，兜住极端情况（比如一次挂了几十张单同时冲进前二）。
+live_confirm_max = 10
+
+[youpin]
+pc_api_base = "https://pc-api.youpin898.com"
+app_api_base = "https://api.youpin898.com"
+uk_ttl_s = 30
+page_sleep_s = 2.5
+
+[youpin.pc_headers]
+app_version = "5.26.0"
+app_type = "1"
+platform = "pc"
+secret_v = "h5_v1"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+
+[youpin.app_headers]
+app_version = "5.28.3"
+app_type = "4"
+platform = "android"
+package_type = "uuyp"
+device_type = "1"
+user_agent = "okhttp/3.14.9"
+game_id = "730"
+
+[ntfy]
+base_url = "https://ntfy.sh"
+priority_rank1 = 4
+priority_rank2 = 3
+priority_system = 4
+click_url_template = "https://www.youpin898.com/market/goods-list?listType=20&templateId={template_id}&gameId=730"
+
+[web]
+host = "127.0.0.1"
+port = 8765
+
+[brief]
+# 每日简报（M3a）。时间都是本地时间（上面的 timezone）。
+# 00:00 判定前一天：列出收盘时排在前 top_rank 名的单（被差价过滤挡住的不列），
+# 和前一天相比有变动（新进、名次变化、榜首价变化）才推送；连续 quiet_days 天没发过就发一行兜底，证明服务还活着。
+enabled = true
+send_at = "00:00"
+# 23:50 给活跃求购单涉及的饰品存一份多平台价格（SteamDT，约 5 分钟），简报的「在售」列由此而来。
+snapshot_at = "23:50"
+# 简报列前几名。和实时告警的 [alerts] enter_rank 分开：实时只推第 1 名时，这里仍可列前 2。
+top_rank = 2
+quiet_days = 7
+
+[valuation]
+# 每日估值（价位 spec）：每天 run_at（本地时间）给活跃求购单的饰品取一次悠悠日线（SteamDT），
+# 算一年分位、趋势、相对大盘、7 天坏情况、出手难易、扣费后的差价，显示在总览「价位」视图和详情页。
+# 只读：不向悠悠发任何请求。每分钟最多 rate_per_min 次；每次请求本身约 1.7 秒，约 430 个饰品要 12 分钟左右。
+enabled = true
+run_at = "00:30"
+rate_per_min = 60
+# 日线少于这么多根就不算位置和坏情况
+min_bars = 60
+# 扣费差价 = 在售最低 ×（1 − 让价）×（1 − 交易手续费）×（1 − 提现费）÷ 买入价 − 1
+undercut = 0.01
+withdraw_fee = 0.01
+target_margin = 0.15
+min_profit = 1.0
+# 「7 天坏情况」取过去一年 7 天涨跌的第几百分位
+bad_quantile = 0.10
+# 价位视图和详情页给建议（考虑撤单 / 考虑降价 / 可以加价 / 保持 / 不评价）。规则按回测结果定：
+# docs/research/2026-10-09-valuation-backtest.md
+advice = true
+# 到手价按哪些平台的在售价算（只在悠悠出货就只写 YOUPIN；写两个则按到手多的那家）
+exit_platforms = ["YOUPIN"]
+# 选品：现价比近 rebound_window 天最低收盘高出 rebound_max 以上，判「观望」（刚涨上来的先不追）。
+# docs/research/2026-11-23-pick-rebound-backtest.md
+rebound_window = 60
+rebound_max = 0.30
+
+[valuation.fees]
+# 卖出成交的交易手续费（2026-09-27 按真实成交核对）
+YOUPIN = 0.01
+BUFF = 0.015
+
+[fills]
+# 求购成交、交易中推送（成交推送 spec）。悠悠显示「交易中」（名次是 *）时推一条；单子从求购列表里
+# 消失后，去「已完成」「暂停中」里按单号查去向，成交了、而且没推过「交易中」才推「求购成交」。
+# 只读：只是换个 status 查「我的求购」列表。暂停（余额不足）、撤单都不推。
+enabled = true
+# 每轮每个列表最多翻几页（每页 40 条）
+max_pages = 15
+# 消失后多久（小时）内继续查去向；成交后多久内还推送（Mac 睡一夜醒来也能补推）
+resolve_window_h = 24
+notify_window_h = 24
+
+[pnl]
+# 盈亏统计（盈亏 spec）：每天 run_at（本地时间）同步悠悠的买入、卖出订单，同账号同模板先进先出配对，
+# 再拉一次库存和租出，记一份持仓快照（算的是前一天）。只读：只用查询接口，平时每天 10 个请求以内。
+# 第一次用先跑 `uv run python -m skinpulse pnl import` 导入全部历史。
+enabled = true
+run_at = "00:45"
+# 浮动盈亏默认按什么算："market" 市价，"net" 到手价（扣 [valuation] 的让价和手续费）。看板上可以切换
+basis = "market"
+# 每天每个列表最多翻几页（每页 20 条）；每天最多补几张卖出详情（实际到手价）
+max_pages = 10
+detail_per_run = 10
+# 异常价只标不剔：悠悠在售少于 thin_count 件，或悠悠 / BUFF 在售价相差超过 spread_ratio 倍
+thin_count = 3
+spread_ratio = 1.5
+
+[market_alerts]
+# 市价提醒（市价提醒 spec）：求购第 1 名高于悠悠在售最低、而我排前 rank_always 名，或排到 rank_max 名以内且
+# 我的价 ≥ 在售最低 × inverted_ratio（前面的单可能很快被
+# 卖家吃掉，很快轮到我），或者我的价 ≥ 在售最低 × near_ratio（一成交差价就很薄）时推一条。
+# 同一张单同一段只推一次；推送前用公开接口核对一次实时在售价，每轮最多 verify_max 张。
+enabled = true
+rank_always = 3
+rank_max = 10
+inverted_ratio = 0.85
+near_ratio = 0.9
+verify_max = 5
+
+[paused_check]
+# 充值前检查暂停单（暂停单 spec）：余额不够时悠悠把单子自动暂停，充值后自动恢复。看板总览「检查一次」或
+# `check-paused` 翻一遍暂停单，看恢复后会不会倒挂（≥ 悠悠在售最低）、直接第 1、离第 1 差 near_gap 以内。
+# 只读、不推送。名次用悠悠列表给的榜首价判断，不逐个查公开队列（查多了会被 403）。
+near_gap = 0.05
+sell_ratio = 0.9
+verify_max = 30     # 一次最多用悠悠在售接口实时核对几张，其余用 SteamDT 的悠悠在售价
+old_days = 60       # 暂停超过几天用醒目标签
+max_pages = 30      # 每个号最多翻几页（每页 40 张）
+stale_h = 2         # 结果超过几小时提示再查一次
+
+# BUFF 求购监控（BUFF spec §11）。只有在看板系统页添加了 BUFF 号才会请求 BUFF；只读。
+[buff]
+round_interval_min = 15   # 一轮的间隔（分钟）
+request_gap_s = 6         # 同一个号两次请求至少隔几秒（最小 5，另加 30% 抖动）
+queue_per_round = 10      # 一轮最多查几次求购队列
+queue_max_pages = 3       # 一张单最多翻几页队列（每页 100 条）
+pause_hours = 2           # 撞到限流、验证码后暂停几小时
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+accept_language = "zh-CN,zh;q=0.9"
+
+# 看板上的写法，只影响看板（推送、简报照旧）。也能在系统页「参数设置」里改。
+[dashboard]
+platform_names = false   # 顶栏账号切换、表格标签写「悠悠」「BUFF」，不写昵称；同一平台有几个号时写「悠悠 · 简称」

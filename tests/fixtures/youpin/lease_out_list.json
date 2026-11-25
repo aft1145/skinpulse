@@ -1,0 +1,141 @@
+{
+ "code": 0,
+ "msg": "成功",
+ "data": {
+  "statisticsDataDesc": "件数：54｜价值：¥1672.32｜总租金：¥1.04/天",
+  "orderDataList": [
+   {
+    "orderId": "TEST-45",
+    "orderNo": "TEST-45",
+    "fromSystem": 1,
+    "orderStatus": 160,
+    "orderSubStatus": 1008,
+    "leaseDaysDesc": "100天",
+    "leaseAmountDesc": "¥0.07",
+    "orderStatusDesc": "租赁中",
+    "leaseExpireTime": "租赁到期2027.03.06 11:48:53",
+    "leaseExpireTimestamp": 1804304933000,
+    "privateLeaseLabel": null,
+    "subsidyLabel": null,
+    "orderSubType": 1,
+    "subsidyRatio": null,
+    "commodityInfo": {
+     "commodityId": "TEST-46",
+     "name": "格洛克 18 型（StatTrak™） | 忍瞳 (略有磨损)",
+     "imgUrl": "https://youpin.img898.com/csgo/template/9e378efc6a7f41d9a6e2a28f620ae194.png",
+     "exteriorName": "略有磨损",
+     "exteriorColor": "#529F52",
+     "rarityName": "保密",
+     "rarityColor": "#D32CE6",
+     "qualityName": "StatTrak™",
+     "qualityColor": "#CF6A32",
+     "abrade": "0.1474889665842056300",
+     "longLeasePrice": 7,
+     "shortLeasePrice": 8,
+     "commodityHashName": "StatTrak™ Glock-18 | Shinobu (Minimal Wear)"
+    },
+    "leaseTransferSupportFlag": 0,
+    "leaseTransferUnsupportedTip": "该订单11.30 12:00交易撤回检测结束后，可进行过户上架",
+    "onShelfFlag": 1,
+    "hasRenewal": false,
+    "enabledSubletStatus": 0,
+    "changeSubletStatus": 0,
+    "deliveryPublicEndTime": 1796011200000,
+    "deliveryPublicEndTimeFlag": false,
+    "batchOrderType": null
+   },
+   {
+    "orderId": "TEST-47",
+    "orderNo": "TEST-47",
+    "fromSystem": 1,
+    "orderStatus": 160,
+    "orderSubStatus": 1008,
+    "leaseDaysDesc": "100天",
+    "leaseAmountDesc": "¥0.01",
+    "orderStatusDesc": "租赁中",
+    "leaseExpireTime": "租赁到期2027.03.02 12:00:01",
+    "leaseExpireTimestamp": 1803960001000,
+    "privateLeaseLabel": null,
+    "subsidyLabel": null,
+    "orderSubType": 1,
+    "subsidyRatio": null,
+    "commodityInfo": {
+     "commodityId": "TEST-48",
+     "name": "P2000 | 酸蚀 (略有磨损)",
+     "imgUrl": "https://youpin.img898.com/csgo/template/949f6e16b253420691b9826f09378c7d.png",
+     "exteriorName": "略有磨损",
+     "exteriorColor": "#529F52",
+     "rarityName": "受限",
+     "rarityColor": "#A676FF",
+     "qualityName": "普通",
+     "qualityColor": "#B2B2B2",
+     "abrade": "0.1323652118444442700",
+     "stickers": [
+      {
+       "id": null,
+       "rawIndex": 0,
+       "name": "幕后主谋（全息）",
+       "hashName": "shattered_web_mastermind_holo",
+       "imageUrl": "https://pic.youpinimg.com/apps/730/icons/econ/stickers/shattered_web/mastermind_holo.2a80771f5bfb99fefd46fb64746484764d6a2b30.png",
+       "abrade": null,
+       "abradeDesc": "100%"
+      }
+     ],
+     "longLeasePrice": 1,
+     "shortLeasePrice": 2,
+     "commodityHashName": "P2000 | Acid Etched (Minimal Wear)"
+    },
+    "leaseTransferSupportFlag": 0,
+    "leaseTransferUnsupportedTip": "该订单11.26 13:00交易撤回检测结束后，可进行过户上架",
+    "onShelfFlag": 1,
+    "hasRenewal": false,
+    "enabledSubletStatus": 0,
+    "changeSubletStatus": 0,
+    "deliveryPublicEndTime": 1795669200000,
+    "deliveryPublicEndTimeFlag": false,
+    "batchOrderType": null
+   }
+  ],
+  "sortConfigList": [
+   {
+    "sortType": 0,
+    "sortDesc": "默认"
+   },
+   {
+    "sortType": 1,
+    "sortDesc": "归还到期时间由近到远"
+   },
+   {
+    "sortType": 2,
+    "sortDesc": "归还到期时间由远到近"
+   },
+   {
+    "sortType": 3,
+    "sortDesc": "租金由低到高"
+   },
+   {
+    "sortType": 4,
+    "sortDesc": "租金由高到低"
+   },
+   {
+    "sortType": 5,
+    "sortDesc": "商品押金由低到高"
+   },
+   {
+    "sortType": 6,
+    "sortDesc": "商品押金由高到低"
+   },
+   {
+    "sortType": 7,
+    "sortDesc": "磨损由低到高"
+   },
+   {
+    "sortType": 8,
+    "sortDesc": "磨损由高到低"
+   }
+  ],
+  "totalCount": 54,
+  "csInspectionVersion": 2,
+  "hasNext": true
+ }
+}

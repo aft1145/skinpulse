@@ -1,0 +1,37 @@
+{
+ "success": true,
+ "data": {
+  "marketHashName": "AK-47 | Redline (Field-Tested)",
+  "avgPrice": 210.01,
+  "dataList": [
+   {
+    "platform": "HALOSKINS",
+    "avgPrice": 180.43
+   },
+   {
+    "platform": "C5",
+    "avgPrice": 178.64
+   },
+   {
+    "platform": "YOUPIN",
+    "avgPrice": 175.84
+   },
+   {
+    "platform": "STEAM",
+    "avgPrice": 237.65
+   },
+   {
+    "platform": "V5ITEM",
+    "avgPrice": 310.0
+   },
+   {
+    "platform": "BUFF",
+    "avgPrice": 177.47
+   }
+  ]
+ },
+ "errorCode": 0,
+ "errorMsg": null,
+ "errorData": null,
+ "errorCodeStr": null
+}

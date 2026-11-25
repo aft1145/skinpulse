@@ -1,0 +1,184 @@
+{
+ "code": "OK",
+ "data": {
+  "goods_infos": {
+   "774786": {
+    "goods_id": 774786,
+    "market_hash_name": "Markus Delrow | FBI HRT",
+    "name": "马尔库斯·戴劳 | 联邦调查局（FBI）人质营救队",
+    "short_name": "马尔库斯·戴劳 | 联邦调查局（FBI）人质营救队"
+   },
+   "835768": {
+    "goods_id": 835768,
+    "market_hash_name": "Dragomir | Sabre Footsoldier",
+    "name": "德拉戈米尔 | 军刀勇士",
+    "short_name": "德拉戈米尔 | 军刀勇士"
+   },
+   "968292": {
+    "goods_id": 968292,
+    "market_hash_name": "Desert Eagle | Heat Treated (Minimal Wear)",
+    "name": "沙漠之鹰 | 热处理 (略有磨损)",
+    "short_name": "沙漠之鹰 | 热处理"
+   },
+   "1120496": {
+    "goods_id": 1120496,
+    "market_hash_name": "Sticker | Bomb Planted (Holo)",
+    "name": "印花 | 炸弹已安放（全息）",
+    "short_name": "印花 | 炸弹已安放（全息）"
+   }
+  },
+  "items": [
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000001",
+     "goods_id": 968292,
+     "paintwear": "0.09557109326124191",
+     "classid": "90000000002",
+     "instanceid": "90000000004"
+    },
+    "buyer_id": "U1000000001",
+    "buyer_pay_time": 1795490796,
+    "created_at": 1795490795,
+    "fee": "0",
+    "game": "csgo",
+    "goods_id": 968292,
+    "id": "261124T1000000036",
+    "income": "0",
+    "mode": 5,
+    "pay_method": 94,
+    "price": "11",
+    "progress": 111,
+    "sell_order_id": null,
+    "seller_id": "U1000000029",
+    "state": "SUCCESS",
+    "state_text": "求购成功",
+    "transact_time": 1795491034,
+    "type": 2,
+    "updated_at": 1795491300,
+    "real_price": "11",
+    "original_price": null
+   },
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000005",
+     "goods_id": 774786,
+     "paintwear": "",
+     "classid": "90000000006",
+     "instanceid": "90000000004"
+    },
+    "buyer_id": "U1000000001",
+    "buyer_pay_time": 1795364061,
+    "created_at": 1795364060,
+    "fee": "0",
+    "game": "csgo",
+    "goods_id": 774786,
+    "id": "261123T1000000037",
+    "income": "0",
+    "mode": 5,
+    "pay_method": 94,
+    "price": "35",
+    "progress": 111,
+    "sell_order_id": null,
+    "seller_id": "U1000000030",
+    "state": "SUCCESS",
+    "state_text": "求购成功",
+    "transact_time": 1795364132,
+    "type": 2,
+    "updated_at": 1795364642,
+    "real_price": "35",
+    "original_price": null
+   },
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000008",
+     "goods_id": 835768,
+     "paintwear": "",
+     "classid": "90000000009",
+     "instanceid": "90000000011"
+    },
+    "buyer_id": "U1000000001",
+    "buyer_pay_time": 1793104394,
+    "created_at": 1793104353,
+    "fee": "0",
+    "game": "csgo",
+    "goods_id": 835768,
+    "id": "261027T1000000038",
+    "income": "0",
+    "mode": 5,
+    "pay_method": 101,
+    "price": "35",
+    "progress": 109,
+    "sell_order_id": null,
+    "seller_id": "U1000000031",
+    "state": "SUCCESS",
+    "state_text": "购买成功",
+    "transact_time": 1793545294,
+    "type": 6,
+    "updated_at": 1794153824,
+    "real_price": "35",
+    "original_price": null
+   },
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000020",
+     "goods_id": 1120496,
+     "paintwear": "",
+     "classid": "90000000021",
+     "instanceid": "90000000004"
+    },
+    "buyer_id": "U1000000001",
+    "buyer_pay_time": 1778743339,
+    "created_at": 1778743338,
+    "fee": "0",
+    "game": "csgo",
+    "goods_id": 1120496,
+    "id": "260514T1000000042",
+    "income": "0",
+    "mode": 5,
+    "pay_method": 60,
+    "price": "1.3",
+    "progress": 106,
+    "sell_order_id": null,
+    "seller_id": "U1000000034",
+    "state": "FAIL",
+    "state_text": "购买失败-已退款",
+    "transact_time": null,
+    "type": 2,
+    "updated_at": 1778745203,
+    "real_price": "1.3",
+    "original_price": null
+   }
+  ],
+  "page_num": 1,
+  "page_size": 8,
+  "total_count": 73,
+  "total_page": 10,
+  "user_infos": {
+   "U1000000029": {
+    "user_id": "U1000000029",
+    "nickname": "用户1"
+   },
+   "U1000000030": {
+    "user_id": "U1000000030",
+    "nickname": "用户2"
+   },
+   "U1000000001": {
+    "user_id": "U1000000001",
+    "nickname": "用户4"
+   },
+   "U1000000034": {
+    "user_id": "U1000000034",
+    "nickname": "用户6"
+   },
+   "U1000000031": {
+    "user_id": "U1000000031",
+    "nickname": "用户7"
+   }
+  }
+ },
+ "msg": null
+}

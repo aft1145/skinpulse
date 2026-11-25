@@ -1,0 +1,132 @@
+{
+ "code": "OK",
+ "data": {
+  "page_num": 1,
+  "page_size": 6,
+  "total_count": 990,
+  "total_page": 165,
+  "state_desc": {
+   "1": "不可交易",
+   "2": "不可出售",
+   "3": "可出售",
+   "4": "限制交易",
+   "5": "上架审核中",
+   "6": "保护期中"
+  },
+  "progress_desc": {
+   "0": "库存中",
+   "1": "出售中",
+   "2": "待发货",
+   "3": "存入中",
+   "4": "不可出售",
+   "5": "供应中",
+   "6": "公示中"
+  },
+  "items": [
+   {
+    "amount": 1,
+    "asset_info": {
+     "assetid": "90000000046",
+     "paintwear": "0.09557109326124191"
+    },
+    "assetid": "90000000046",
+    "classid": "90000000002",
+    "contextid": 16,
+    "game": "csgo",
+    "goods_id": 968292,
+    "instanceid": "90000000048",
+    "is_renting": false,
+    "allow_rent": true,
+    "rent_order": null,
+    "market_hash_name": "Desert Eagle | Heat Treated (Minimal Wear)",
+    "name": "沙漠之鹰 | 热处理 (略有磨损)",
+    "progress": null,
+    "progress_text": null,
+    "sell_min_price": "12.36",
+    "sell_order_id": null,
+    "sell_order_price": "0",
+    "state": 6,
+    "state_text": "保护期中",
+    "tradable": false,
+    "buy_price": 1100,
+    "short_name": "沙漠之鹰 | 热处理"
+   },
+   {
+    "amount": 1,
+    "asset_info": {
+     "assetid": "90000000049",
+     "paintwear": "0.09771154075860977"
+    },
+    "assetid": "90000000049",
+    "classid": "90000000050",
+    "contextid": 16,
+    "game": "csgo",
+    "goods_id": 36530,
+    "instanceid": "90000000052",
+    "is_renting": false,
+    "allow_rent": true,
+    "rent_order": null,
+    "market_hash_name": "SSG 08 | Big Iron (Minimal Wear)",
+    "name": "SSG 08 | 巨铁 (略有磨损)",
+    "progress": null,
+    "progress_text": null,
+    "sell_min_price": "74.99",
+    "sell_order_id": null,
+    "sell_order_price": "0",
+    "state": 6,
+    "state_text": "保护期中",
+    "tradable": false,
+    "buy_price": 0,
+    "short_name": "SSG 08 | 巨铁"
+   },
+   {
+    "amount": 1,
+    "asset_info": {
+     "assetid": "90000000053",
+     "paintwear": ""
+    },
+    "assetid": "90000000053",
+    "classid": "90000000054",
+    "contextid": 16,
+    "game": "csgo",
+    "goods_id": 1116834,
+    "instanceid": "90000000055",
+    "is_renting": false,
+    "allow_rent": false,
+    "rent_order": null,
+    "market_hash_name": "Sticker | G2 Esports (Foil) | Austin 2025",
+    "name": "印花 | G2 Esports（闪亮）| 2025年奥斯汀锦标赛",
+    "progress": null,
+    "progress_text": null,
+    "sell_min_price": "0.15",
+    "sell_order_id": null,
+    "sell_order_price": "0",
+    "state": 6,
+    "state_text": "保护期中",
+    "tradable": false,
+    "short_name": "印花 | G2 Esports（闪亮）| 2025年奥斯汀锦标赛"
+   }
+  ],
+  "goods_infos": {
+   "36530": {
+    "goods_id": 36530,
+    "market_hash_name": "SSG 08 | Big Iron (Minimal Wear)",
+    "name": "SSG 08 | 巨铁 (略有磨损)",
+    "short_name": "SSG 08 | 巨铁"
+   },
+   "968292": {
+    "goods_id": 968292,
+    "market_hash_name": "Desert Eagle | Heat Treated (Minimal Wear)",
+    "name": "沙漠之鹰 | 热处理 (略有磨损)",
+    "short_name": "沙漠之鹰 | 热处理"
+   },
+   "1116834": {
+    "goods_id": 1116834,
+    "market_hash_name": "Sticker | G2 Esports (Foil) | Austin 2025",
+    "name": "印花 | G2 Esports（闪亮）| 2025年奥斯汀锦标赛",
+    "short_name": "印花 | G2 Esports（闪亮）| 2025年奥斯汀锦标赛"
+   }
+  }
+ },
+ "msg": null
+}

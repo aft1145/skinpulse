@@ -1,0 +1,140 @@
+{
+ "code": "OK",
+ "data": {
+  "goods_infos": {
+   "956563": {
+    "goods_id": 956563,
+    "market_hash_name": "★ Kukri Knife | Forest DDPAT (Field-Tested)",
+    "name": "廓尔喀刀（★） | 森林 DDPAT (久经沙场)",
+    "short_name": "廓尔喀刀（★） | 森林 DDPAT"
+   },
+   "1116100": {
+    "goods_id": 1116100,
+    "market_hash_name": "M4A1-S | Stratosphere (Minimal Wear)",
+    "name": "M4A1 消音型 | 平流层巡航 (略有磨损)",
+    "short_name": "M4A1 消音型 | 平流层巡航"
+   },
+   "1134230": {
+    "goods_id": 1134230,
+    "market_hash_name": "P90 | Deathgaze (Battle-Scarred)",
+    "name": "P90 | 美杜莎之视 (战痕累累)",
+    "short_name": "P90 | 美杜莎之视"
+   }
+  },
+  "items": [
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000027",
+     "goods_id": 1134230,
+     "paintwear": "0.6805968284606934",
+     "classid": "90000000028",
+     "instanceid": "90000000030"
+    },
+    "buyer_id": "U1000000036",
+    "buyer_pay_time": 1782810928,
+    "created_at": 1782810927,
+    "fee": "0.45",
+    "game": "csgo",
+    "goods_id": 1134230,
+    "id": "260630T1000000044",
+    "income": "29.55",
+    "mode": 5,
+    "pay_method": 1,
+    "price": "30",
+    "progress": 109,
+    "sell_order_id": null,
+    "seller_id": "U1000000001",
+    "state": "SUCCESS",
+    "state_text": "出售成功",
+    "transact_time": 1782814163,
+    "type": 1,
+    "updated_at": 1783422204,
+    "original_price": null
+   },
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000031",
+     "goods_id": 1116100,
+     "paintwear": "0.13503192365169525",
+     "classid": "90000000032",
+     "instanceid": "90000000034"
+    },
+    "buyer_id": "U1000000037",
+    "buyer_pay_time": 1779105740,
+    "created_at": 1779105733,
+    "fee": "1.83",
+    "game": "csgo",
+    "goods_id": 1116100,
+    "id": "260518T1000000045",
+    "income": "120.17",
+    "mode": 5,
+    "pay_method": 45,
+    "price": "122",
+    "progress": 109,
+    "sell_order_id": null,
+    "seller_id": "U1000000001",
+    "state": "SUCCESS",
+    "state_text": "出售成功",
+    "transact_time": 1779107672,
+    "type": 1,
+    "updated_at": 1779780408,
+    "original_price": null
+   },
+   {
+    "appid": 730,
+    "asset_info": {
+     "assetid": "90000000035",
+     "goods_id": 956563,
+     "paintwear": "0.22038951516151428",
+     "classid": "90000000036",
+     "instanceid": "90000000038"
+    },
+    "buyer_id": "U1000000038",
+    "buyer_pay_time": 1761904741,
+    "created_at": 1761904741,
+    "fee": "9.13",
+    "game": "csgo",
+    "goods_id": 956563,
+    "id": "251031T1000000046",
+    "income": "355.87",
+    "mode": 5,
+    "pay_method": 1,
+    "price": "365",
+    "progress": 109,
+    "sell_order_id": null,
+    "seller_id": "U1000000001",
+    "state": "SUCCESS",
+    "state_text": "出售成功",
+    "transact_time": 1761904884,
+    "type": 1,
+    "updated_at": 1762590599,
+    "original_price": null
+   }
+  ],
+  "page_num": 1,
+  "page_size": 6,
+  "total_count": 55,
+  "total_page": 10,
+  "user_infos": {
+   "U1000000001": {
+    "user_id": "U1000000001",
+    "nickname": "用户2"
+   },
+   "U1000000037": {
+    "user_id": "U1000000037",
+    "nickname": "用户4"
+   },
+   "U1000000038": {
+    "user_id": "U1000000038",
+    "nickname": "用户5"
+   },
+   "U1000000036": {
+    "user_id": "U1000000036",
+    "nickname": "用户7"
+   }
+  }
+ },
+ "msg": null
+}

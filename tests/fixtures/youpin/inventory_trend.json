@@ -1,0 +1,271 @@
+{
+ "code": 0,
+ "msg": "成功",
+ "data": {
+  "totalCount": 991,
+  "itemsInfos": [
+   {
+    "steamAssetId": "x",
+    "commodityName": "沙漠之鹰 | 印花集 (崭新出厂)",
+    "shortName": "沙漠之鹰 | 印花集",
+    "templateId": 918,
+    "templateHashName": "Desert Eagle | Printstream (Factory New)",
+    "abrade": "0.06998375058174133",
+    "iconUrl": "https://youpin.img898.com/csgo/template/bcc3248b74714c7c88c3ce89a3730626.png",
+    "tags": [
+     {
+      "Category": "Type",
+      "InternalName": "CSGO_Type_Pistol",
+      "LocalizedCategoryName": "类型",
+      "LocalizedTagName": "手枪"
+     },
+     {
+      "Category": "Weapon",
+      "InternalName": "weapon_deagle",
+      "LocalizedCategoryName": "武器",
+      "LocalizedTagName": "沙漠之鹰"
+     },
+     {
+      "Category": "ItemSet",
+      "InternalName": "set_community_26",
+      "LocalizedCategoryName": "收藏品",
+      "LocalizedTagName": "裂空武器箱收藏品"
+     },
+     {
+      "Category": "Rarity",
+      "InternalName": "Rarity_Ancient_Weapon",
+      "LocalizedCategoryName": "品质",
+      "LocalizedTagName": "隐秘级",
+      "Color": "eb4b4b"
+     },
+     {
+      "Category": "Exterior",
+      "InternalName": "WearCategory0",
+      "LocalizedCategoryName": "外观",
+      "LocalizedTagName": "崭新出厂",
+      "Color": "58B658",
+      "ShortName": "崭新"
+     }
+    ],
+    "marketPrice": "309.4",
+    "assetBuyPrice": "421",
+    "profitAndLossPrice": "-111.6",
+    "rentPrice": "0.2",
+    "yearRentPrice": "73",
+    "steamMarketPrice": "x",
+    "steamPremiumPrice": "x",
+    "toppingStatus": 0
+   },
+   {
+    "steamAssetId": "x",
+    "commodityName": "AK-47 | 二西莫夫 (略有磨损)",
+    "shortName": "AK-47 | 二西莫夫",
+    "templateId": 1627,
+    "templateHashName": "AK-47 | Asiimov (Minimal Wear)",
+    "abrade": "0.14056898653507233",
+    "iconUrl": "https://youpin.img898.com/csgo/template/271fbf96c5bf4dc4ac34a2d098fd6329.png",
+    "tags": [
+     {
+      "Category": "Type",
+      "InternalName": "CSGO_Type_Rifle",
+      "LocalizedCategoryName": "类型",
+      "LocalizedTagName": "步枪"
+     },
+     {
+      "Category": "Weapon",
+      "InternalName": "weapon_ak47",
+      "LocalizedCategoryName": "武器",
+      "LocalizedTagName": "AK-47"
+     },
+     {
+      "Category": "ItemSet",
+      "InternalName": "set_community_21",
+      "LocalizedCategoryName": "收藏品",
+      "LocalizedTagName": "头号特训收藏品"
+     },
+     {
+      "Category": "Rarity",
+      "InternalName": "Rarity_Ancient_Weapon",
+      "LocalizedCategoryName": "品质",
+      "LocalizedTagName": "隐秘级",
+      "Color": "eb4b4b"
+     },
+     {
+      "Category": "Exterior",
+      "InternalName": "WearCategory1",
+      "LocalizedCategoryName": "外观",
+      "LocalizedTagName": "略有磨损",
+      "Color": "529F52",
+      "ShortName": "略磨"
+     },
+     {
+      "Category": "Tournament",
+      "InternalName": "Tournament23",
+      "LocalizedCategoryName": "锦标赛",
+      "LocalizedTagName": "2024年 完美世界 上海"
+     },
+     {
+      "Category": "TournamentTeam",
+      "InternalName": "Team81",
+      "LocalizedCategoryName": "战队",
+      "LocalizedTagName": "Team Spirit"
+     },
+     {
+      "Category": "ProPlayer",
+      "InternalName": "donk",
+      "LocalizedCategoryName": "职业选手",
+      "LocalizedTagName": "donk（Danil Kryshkovets）"
+     }
+    ],
+    "marketPrice": "240.8",
+    "assetBuyPrice": "260",
+    "profitAndLossPrice": "-19.2",
+    "rentPrice": "0.11",
+    "yearRentPrice": "40.15",
+    "steamMarketPrice": "x",
+    "steamPremiumPrice": "x",
+    "toppingStatus": 0
+   },
+   {
+    "steamAssetId": "x",
+    "commodityName": "暗影双匕（★） | 黑色层压板 (久经沙场)",
+    "shortName": "暗影双匕（★） | 黑色层压板",
+    "templateId": 61954,
+    "templateHashName": "★ Shadow Daggers | Black Laminate (Field-Tested)",
+    "abrade": "0.34362828731536865",
+    "iconUrl": "https://youpin.img898.com/csgo/template/5b3c8d6c133f4904ad50610b98b7f1ed.png",
+    "tags": [
+     {
+      "Category": "Type",
+      "InternalName": "CSGO_Type_Knife",
+      "LocalizedCategoryName": "类型",
+      "LocalizedTagName": "匕首"
+     },
+     {
+      "Category": "Weapon",
+      "InternalName": "weapon_knife_push",
+      "LocalizedCategoryName": "武器",
+      "LocalizedTagName": "暗影双匕"
+     },
+     {
+      "Category": "ItemSet",
+      "InternalName": "set_community_9",
+      "LocalizedCategoryName": "收藏品",
+      "LocalizedTagName": "暗影收藏品"
+     },
+     {
+      "Category": "Quality",
+      "InternalName": "unusual",
+      "LocalizedCategoryName": "类别",
+      "LocalizedTagName": "★",
+      "Color": "8650AC",
+      "ShortName": "★"
+     },
+     {
+      "Category": "Rarity",
+      "InternalName": "Rarity_Ancient_Weapon",
+      "LocalizedCategoryName": "品质",
+      "LocalizedTagName": "隐秘级",
+      "Color": "eb4b4b"
+     },
+     {
+      "Category": "Exterior",
+      "InternalName": "WearCategory2",
+      "LocalizedCategoryName": "外观",
+      "LocalizedTagName": "久经沙场",
+      "Color": "F1AD4D",
+      "ShortName": "久经"
+     }
+    ],
+    "marketPrice": "208.5",
+    "assetBuyPrice": "630",
+    "profitAndLossPrice": "-421.5",
+    "rentPrice": "0.1",
+    "yearRentPrice": "36.5",
+    "steamMarketPrice": "x",
+    "steamPremiumPrice": "x",
+    "toppingStatus": 0
+   },
+   {
+    "steamAssetId": "x",
+    "commodityName": "马尔库斯·戴劳 | 联邦调查局（FBI）人质营救队",
+    "shortName": "马尔库斯·戴劳 | 联邦调查局（FBI）人质营救队",
+    "templateId": 1056,
+    "templateHashName": "Markus Delrow | FBI HRT",
+    "abrade": "",
+    "iconUrl": "https://youpin.img898.com/csgo/template/26323c03ca8243e79dfc444e77a81199.png",
+    "tags": [
+     {
+      "Category": "Type",
+      "InternalName": "Type_CustomPlayer",
+      "LocalizedCategoryName": "类型",
+      "LocalizedTagName": "探员"
+     },
+     {
+      "Category": "ItemSet",
+      "InternalName": "set_op9_characters",
+      "LocalizedCategoryName": "收藏品",
+      "LocalizedTagName": "“裂网大行动”探员"
+     },
+     {
+      "Category": "Rarity",
+      "InternalName": "Rarity_Mythical_Character",
+      "LocalizedCategoryName": "品质",
+      "LocalizedTagName": "卓越",
+      "Color": "A676FF",
+      "ShortName": "卓越"
+     }
+    ],
+    "marketPrice": "34.72",
+    "assetBuyPrice": "",
+    "rentPrice": "0.08",
+    "yearRentPrice": "29.2",
+    "steamMarketPrice": "x",
+    "steamPremiumPrice": "x",
+    "toppingStatus": 0
+   },
+   {
+    "steamAssetId": "x",
+    "commodityName": "B 中队指挥官 | 英国空军特别部队",
+    "shortName": "B 中队指挥官 | 英国空军特别部队",
+    "templateId": 807,
+    "templateHashName": "B Squadron Officer | SAS",
+    "abrade": "",
+    "iconUrl": "https://youpin.img898.com/csgo/template/7b459c852ea84d70920bb2ef2a73b7c2.png",
+    "tags": [
+     {
+      "Category": "Type",
+      "InternalName": "Type_CustomPlayer",
+      "LocalizedCategoryName": "类型",
+      "LocalizedTagName": "探员"
+     },
+     {
+      "Category": "ItemSet",
+      "InternalName": "set_op9_characters",
+      "LocalizedCategoryName": "收藏品",
+      "LocalizedTagName": "“裂网大行动”探员"
+     },
+     {
+      "Category": "Rarity",
+      "InternalName": "Rarity_Rare_Character",
+      "LocalizedCategoryName": "品质",
+      "LocalizedTagName": "高级",
+      "Color": "7087FF",
+      "ShortName": "高级"
+     }
+    ],
+    "marketPrice": "30.8",
+    "assetBuyPrice": "",
+    "rentPrice": "0.02",
+    "yearRentPrice": "7.3",
+    "steamMarketPrice": "x",
+    "steamPremiumPrice": "x",
+    "toppingStatus": 0
+   }
+  ],
+  "totalPages": 1,
+  "marketPriceTotal": "2831.69",
+  "profitAndLossTotal": "-2184.23",
+  "buyPriceTotal": "4674.61"
+ }
+}

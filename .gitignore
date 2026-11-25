@@ -1,0 +1,41 @@
+# runtime data & secrets
+data/
+.env
+*.db
+*.db-wal
+*.db-shm
+logs/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.superpowers/
+settings.toml
+
+# 凭据文件：任何位置的 cookie/token 抓取文件都不得进入版本库
+*cookie*.txt
+*token*.txt
+*.cookie
+info.js
+
+# Claude Code 的个人本地设置（项目共享设置 .claude/settings.json 要提交）
+.claude/settings.local.json
+
+# frontend（看板改版 spec §2.4）：依赖不提交；构建产物要提交，得从上面的 dist/ 里捞回来
+frontend/node_modules/
+!skinpulse/web/dist/
+
+# 在仓库根目录误跑 vitest 会生成 node_modules/.vite 缓存（前端依赖在 frontend/node_modules）
+/node_modules/

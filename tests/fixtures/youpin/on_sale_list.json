@@ -1,0 +1,4 @@
+{"Code":0,"Msg":"success","Data":[
+ {"id":3000000001,"type":10,"gameId":730,"userId":20000001,"commodityNo":"3000000001","commodityName":"AK-47 | 红线 (久经沙场)","templateId":1414,"price":"355.5","publishTime":"2026-08-22T16:10:40.967+00:00","haveSticker":0,"haveBuZhang":0,"haveNameTag":0,"canSold":1},
+ {"id":3000000002,"type":10,"gameId":730,"userId":20000002,"commodityNo":"3000000002","commodityName":"AK-47 | 红线 (久经沙场)","templateId":1414,"price":"356","publishTime":"2026-08-22T17:03:00.265+00:00","haveSticker":1,"haveBuZhang":0,"haveNameTag":0,"canSold":1}
+]}

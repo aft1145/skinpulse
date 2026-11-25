@@ -1,0 +1,46 @@
+name: 问题反馈
+description: 运行出错、推送不对、看板显示不对
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **先脱敏**：别贴 token、`uk`、BUFF cookie、PushPlus token、ntfy topic、SteamDT key、手机号、单号、userId、昵称。见 [SECURITY.md](https://github.com/aft1145/skinpulse/blob/main/SECURITY.md)。
+        安全问题请走 Security → Report a vulnerability，不要开公开 issue。
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望是什么
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎么复现
+      placeholder: "1. …\n2. …"
+  - type: dropdown
+    id: os
+    attributes:
+      label: 系统
+      options: [macOS, Windows 10, Windows 11]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      description: "`git rev-parse --short HEAD` 的输出"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志（已脱敏）
+      description: "`data/logs/skinpulse.jsonl` 或 `launchd.log` / `supervisor.log` 里的几行"
+      render: text

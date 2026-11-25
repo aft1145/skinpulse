@@ -1,0 +1,90 @@
+{
+ "success": true,
+ "data": [
+  {
+   "platform": "C5",
+   "platformItemId": "22499",
+   "sellPrice": 178.0,
+   "sellCount": 2451,
+   "biddingPrice": 200.0,
+   "biddingCount": 46,
+   "updateTime": 1790094924
+  },
+  {
+   "platform": "HALOSKINS",
+   "platformItemId": "22499",
+   "sellPrice": 180.04,
+   "sellCount": 2334,
+   "biddingPrice": 0.0,
+   "biddingCount": 0,
+   "updateTime": 1790093738
+  },
+  {
+   "platform": "YOUPIN",
+   "platformItemId": "1414",
+   "sellPrice": 172.4,
+   "sellCount": 10801,
+   "biddingPrice": 372.0,
+   "biddingCount": 57,
+   "updateTime": 1790095428
+  },
+  {
+   "platform": "WAXPEER",
+   "platformItemId": "",
+   "sellPrice": 0,
+   "sellCount": 0,
+   "biddingPrice": 0,
+   "biddingCount": 0,
+   "updateTime": 1756742400
+  },
+  {
+   "platform": "DMARKET",
+   "platformItemId": "",
+   "sellPrice": 0,
+   "sellCount": 0,
+   "biddingPrice": 0,
+   "biddingCount": 0,
+   "updateTime": 1756742400
+  },
+  {
+   "platform": "CSMONEY",
+   "platformItemId": "",
+   "sellPrice": 0,
+   "sellCount": 0,
+   "biddingPrice": 0,
+   "biddingCount": 0,
+   "updateTime": 1751385600
+  },
+  {
+   "platform": "SKINPORT",
+   "platformItemId": "",
+   "sellPrice": 0,
+   "sellCount": 0,
+   "biddingPrice": 0,
+   "biddingCount": 0,
+   "updateTime": 1756742400
+  },
+  {
+   "platform": "STEAM",
+   "platformItemId": "",
+   "sellPrice": 228.14,
+   "sellCount": 1187,
+   "biddingPrice": 0.0,
+   "biddingCount": 0,
+   "updateTime": 1790092862
+  },
+  {
+   "platform": "BUFF",
+   "platformItemId": "33960",
+   "sellPrice": 175.0,
+   "sellCount": 8441,
+   "biddingPrice": 171.0,
+   "biddingCount": 98,
+   "updateTime": 1790094628
+  }
+ ],
+ "errorCode": 0,
+ "errorMsg": null,
+ "errorData": null,
+ "errorCodeStr": null
+}

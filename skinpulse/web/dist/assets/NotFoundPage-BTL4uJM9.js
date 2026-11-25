@@ -1,0 +1,1 @@
+import{I as e,m as t,t as n}from"./_plugin-vue_export-helper-B072Cgny.js";var r={};function i(n,r){return e(),t(`main`,null,`页面不存在`)}var a=n(r,[[`render`,i]]);export{a as default};

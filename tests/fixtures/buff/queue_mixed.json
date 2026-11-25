@@ -1,0 +1,423 @@
+{
+ "code": "OK",
+ "data": {
+  "page_num": 1,
+  "page_size": 30,
+  "total_page": 1,
+  "total_count": 28,
+  "items": [
+   {
+    "id": "261124T1000000009",
+    "user_id": "U1000000002",
+    "goods_id": 1134183,
+    "price": "151",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.08",
+      "values": [
+       "0.07",
+       "0.08"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1795524911,
+    "pay_method": 94
+   },
+   {
+    "id": "261121T1000000010",
+    "user_id": "U1000000003",
+    "goods_id": 1134183,
+    "price": "150",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.08",
+      "values": [
+       "0.07",
+       "0.08"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1795196406,
+    "pay_method": 94
+   },
+   {
+    "id": "261028T1000000011",
+    "user_id": "U1000000004",
+    "goods_id": 1134183,
+    "price": "140",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.08",
+      "values": [
+       "0.07",
+       "0.08"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1793167919,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000012",
+    "user_id": "U1000000005",
+    "goods_id": 1134183,
+    "price": "132",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.09",
+      "values": [
+       "0.07",
+       "0.09"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1795508509,
+    "pay_method": 94
+   },
+   {
+    "id": "261123T1000000013",
+    "user_id": "U1000000006",
+    "goods_id": 1134183,
+    "price": "131",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.09",
+      "values": [
+       "0.07",
+       "0.09"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1795408451,
+    "pay_method": 78
+   },
+   {
+    "id": "261103T1000000014",
+    "user_id": "U1000000007",
+    "goods_id": 1134183,
+    "price": "121",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.09",
+      "values": [
+       "0.07",
+       "0.09"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1793649784,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000015",
+    "user_id": "U1000000005",
+    "goods_id": 1134183,
+    "price": "112",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.10",
+      "values": [
+       "0.07",
+       "0.10"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1795528097,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000016",
+    "user_id": "U1000000008",
+    "goods_id": 1134183,
+    "price": "102",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795529586,
+    "pay_method": 101
+   },
+   {
+    "id": "261123T1000000003",
+    "user_id": "U1000000009",
+    "goods_id": 1134183,
+    "price": "101",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795425061,
+    "pay_method": 94
+   },
+   {
+    "id": "261008T1000000017",
+    "user_id": "U1000000010",
+    "goods_id": 1134183,
+    "price": "100",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1791423459,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000018",
+    "user_id": "U1000000011",
+    "goods_id": 1134183,
+    "price": "93",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795530115,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000019",
+    "user_id": "U1000000012",
+    "goods_id": 1134183,
+    "price": "92",
+    "num": 3,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795527647,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000020",
+    "user_id": "U1000000013",
+    "goods_id": 1134183,
+    "price": "91",
+    "num": 20,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795514178,
+    "pay_method": 94
+   },
+   {
+    "id": "261114T1000000021",
+    "user_id": "U1000000014",
+    "goods_id": 1134183,
+    "price": "90",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1794645782,
+    "pay_method": 96
+   },
+   {
+    "id": "261123T1000000022",
+    "user_id": "U1000000015",
+    "goods_id": 1134183,
+    "price": "88",
+    "num": 1,
+    "real_num": 0,
+    "specific": [
+     {
+      "type": "paintwear",
+      "text": "磨损: 0.07-0.10",
+      "values": [
+       "0.07",
+       "0.10"
+      ]
+     }
+    ],
+    "state": "progressing",
+    "created_at": 1795449167,
+    "pay_method": 94
+   },
+   {
+    "id": "261008T1000000023",
+    "user_id": "U1000000016",
+    "goods_id": 1134183,
+    "price": "86",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1791473962,
+    "pay_method": 94
+   },
+   {
+    "id": "261123T1000000024",
+    "user_id": "U1000000017",
+    "goods_id": 1134183,
+    "price": "80",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795366759,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000025",
+    "user_id": "U1000000018",
+    "goods_id": 1134183,
+    "price": "80",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795507916,
+    "pay_method": 94
+   },
+   {
+    "id": "261111T1000000026",
+    "user_id": "U1000000019",
+    "goods_id": 1134183,
+    "price": "50",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1794360494,
+    "pay_method": 94
+   },
+   {
+    "id": "261124T1000000027",
+    "user_id": "U1000000020",
+    "goods_id": 1134183,
+    "price": "50",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1795528674,
+    "pay_method": 94
+   },
+   {
+    "id": "260930T1000000028",
+    "user_id": "U1000000021",
+    "goods_id": 1134183,
+    "price": "40",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1790758863,
+    "pay_method": 94
+   },
+   {
+    "id": "260903T1000000029",
+    "user_id": "U1000000022",
+    "goods_id": 1134183,
+    "price": "9",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1788388232,
+    "pay_method": 94
+   },
+   {
+    "id": "260922T1000000030",
+    "user_id": "U1000000023",
+    "goods_id": 1134183,
+    "price": "2",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1790068758,
+    "pay_method": 94
+   },
+   {
+    "id": "260920T1000000031",
+    "user_id": "U1000000024",
+    "goods_id": 1134183,
+    "price": "1",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1789919916,
+    "pay_method": 94
+   },
+   {
+    "id": "260922T1000000032",
+    "user_id": "U1000000025",
+    "goods_id": 1134183,
+    "price": "1",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1790060517,
+    "pay_method": 78
+   },
+   {
+    "id": "261024T1000000033",
+    "user_id": "U1000000026",
+    "goods_id": 1134183,
+    "price": "1",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1792839317,
+    "pay_method": 78
+   },
+   {
+    "id": "261026T1000000034",
+    "user_id": "U1000000027",
+    "goods_id": 1134183,
+    "price": "1",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1793008074,
+    "pay_method": 96
+   },
+   {
+    "id": "261027T1000000035",
+    "user_id": "U1000000028",
+    "goods_id": 1134183,
+    "price": "1",
+    "num": 1,
+    "real_num": 0,
+    "specific": [],
+    "state": "progressing",
+    "created_at": 1793078742,
+    "pay_method": 94
+   }
+  ],
+  "user_infos": {},
+  "show_pay_method_icon": true,
+  "filters": []
+ },
+ "msg": null
+}

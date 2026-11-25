@@ -1,0 +1,93 @@
+{
+ "success": true,
+ "data": [
+  {
+   "name": "AK-47 | 红线 (久经沙场)",
+   "marketHashName": "AK-47 | Redline (Field-Tested)",
+   "platformList": [
+    {
+     "name": "C5",
+     "itemId": "22499"
+    },
+    {
+     "name": "HALOSKINS",
+     "itemId": "22499"
+    },
+    {
+     "name": "YOUPIN",
+     "itemId": "1414"
+    },
+    {
+     "name": "BUFF",
+     "itemId": "33960"
+    }
+   ]
+  },
+  {
+   "name": "裹手（★） | 防水布胶带 (久经沙场)",
+   "marketHashName": "★ Hand Wraps | Duct Tape (Field-Tested)",
+   "platformList": [
+    {
+     "name": "HALOSKINS",
+     "itemId": "553466190"
+    },
+    {
+     "name": "C5",
+     "itemId": "553466190"
+    },
+    {
+     "name": "YOUPIN",
+     "itemId": "1022"
+    },
+    {
+     "name": "BUFF",
+     "itemId": "45429"
+    }
+   ]
+  },
+  {
+   "name": "廓尔喀刀（★ StatTrak™） | 人工染色 (久经沙场)",
+   "marketHashName": "★ StatTrak™ Kukri Knife | Stained (Field-Tested)",
+   "platformList": [
+    {
+     "name": "BUFF",
+     "itemId": "956691"
+    },
+    {
+     "name": "YOUPIN",
+     "itemId": "108753"
+    },
+    {
+     "name": "C5",
+     "itemId": "1236740097462329344"
+    },
+    {
+     "name": "HALOSKINS",
+     "itemId": "1236740097462329344"
+    }
+   ]
+  },
+  {
+   "name": "猎杀者匕首（★ StatTrak™） | 都市伪装 (破损不堪)",
+   "marketHashName": "★ StatTrak™ Huntsman Knife | Urban Masked (Well-Worn)",
+   "platformList": [
+    {
+     "name": "BUFF",
+     "itemId": "43700"
+    },
+    {
+     "name": "C5",
+     "itemId": "27354"
+    },
+    {
+     "name": "HALOSKINS",
+     "itemId": "27354"
+    }
+   ]
+  }
+ ],
+ "errorCode": 0,
+ "errorMsg": null,
+ "errorData": null,
+ "errorCodeStr": null
+}

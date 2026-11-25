@@ -1,0 +1,483 @@
+{
+ "messages": {
+  "brief": {
+   "body": "第1名 | FN57 | 怒氓 (破损) | 求购 18 | 榜首 我 | 在售 — | 名次 2→1，榜首 19→18\n第2名 | FN57 | 怒氓 (破损) | 求购 18 | 榜首 18 | 在售 — | 名次 2→2，榜首 19→18",
+   "click": null,
+   "html": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\" style=\"border-collapse:collapse\"><tr><th>名次</th><th>饰品</th><th>求购</th><th>榜首</th><th>在售</th><th>变动</th></tr><tr style=\"font-weight:bold\"><td>1</td><td>FN57 | 怒氓 (破损)</td><td>18</td><td>我</td><td>—</td><td>名次 2→1，榜首 19→18</td></tr><tr style=\"font-weight:bold\"><td>2</td><td>FN57 | 怒氓 (破损)</td><td>18</td><td>18</td><td>—</td><td>名次 2→2，榜首 19→18</td></tr></table>",
+   "title": "SkinPulse 简报 09-27：前 2 共 2 张，2 张有变动"
+  },
+  "fill_many": {
+   "body": "AWP | 树蝰 (崭新)\n我的价 150 × 1\n成交于 09-27 11:30\n发现于 09-27 12:00，晚了 30 分钟\n\nAWP | 树蝰 (崭新)\n我的价 150 × 1\n成交于 09-27 11:30\n发现于 09-27 12:00，晚了 30 分钟",
+   "click": null,
+   "html": null,
+   "title": "2 张求购成交"
+  },
+  "fill_one": {
+   "body": "我的价 150 × 1\n成交于 09-27 11:30\n发现于 09-27 12:00，晚了 30 分钟",
+   "click": "https://www.youpin898.com/market/goods-list?listType=20&templateId=99&gameId=730",
+   "html": null,
+   "title": "求购成交：AWP | 树蝰 (崭新)"
+  },
+  "in_trade_many": {
+   "body": "有卖家卖给了这些求购，交易进行中\n\nAWP | 树蝰 (崭新)\n我的价 150\n\nAWP | 树蝰 (崭新) [崭新]\n我的价 150\n\n触发于 09-27 11:30",
+   "click": null,
+   "html": null,
+   "title": "2 张求购交易中"
+  },
+  "in_trade_one": {
+   "body": "有卖家卖给了这张求购，交易进行中\n我的价 150\n\n触发于 09-27 11:30",
+   "click": "https://www.youpin898.com/market/goods-list?listType=20&templateId=99&gameId=730",
+   "html": null,
+   "title": "交易中：AWP | 树蝰 (崭新)"
+  },
+  "market_many": {
+   "body": "M4A4 | 涡轮 (略磨)\n我的价 13 · 第 2 名\n榜首 16.6 · 悠悠在售最低 17.9（10 件）\n我的价是在售的 73%，成交后扣费差价约 +5%\n\nM4A4 | 涡轮 (略磨)\n我的价 13 · 第 2 名\n榜首 16.6 · 悠悠在售最低 17.9（10 件）\n榜首比在售还高，前面的单可能很快被卖掉，轮到你\n\n核对于 09-27 12:00",
+   "click": null,
+   "html": null,
+   "title": "2 张求购接近成交价"
+  },
+  "market_one": {
+   "body": "我的价 13 · 第 2 名\n榜首 16.6 · 悠悠在售最低 17.9（10 件）\n我的价是在售的 73%，成交后扣费差价约 +5%\n\n核对于 09-27 12:00",
+   "click": "https://www.youpin898.com/market/goods-list?listType=20&templateId=7&gameId=730",
+   "html": null,
+   "title": "贴近市价：M4A4 | 涡轮 (略磨)"
+  },
+  "rank1_many": {
+   "body": "AK-47 | 红线 (久经)\n第1名（最高价）| 我的价 100 | 市场价 120\n\nAK-47 | 红线 (久经) [0.15-0.18]\n第1名（最高价）| 我的价 100 | 市场价 120\n\n触发于 09-27 12:00",
+   "click": null,
+   "html": null,
+   "title": "2 张求购升到第 1 名"
+  },
+  "rank1_one": {
+   "body": "AK-47 | 红线 (久经)\n第1名（最高价）| 我的价 100 | 市场价 120\n\n触发于 09-27 12:00",
+   "click": "https://www.youpin898.com/market/goods-list?listType=20&templateId=1414&gameId=730",
+   "html": null,
+   "title": "求购第1名：AK-47 | 红线 (久经) [不限]"
+  }
+ },
+ "meta": {
+  "accounts": [
+   {
+    "custom_label": null,
+    "enabled": true,
+    "id": 1,
+    "label": "me",
+    "last_sync_at": null,
+    "logged_in": true,
+    "nickname": "me",
+    "orders": 3,
+    "paused_until": null,
+    "platform": "youpin",
+    "tag": "me",
+    "token": {
+     "days_left": 3,
+     "expires_at": "2026-09-30T04:00:00Z",
+     "valid": true
+    }
+   }
+  ],
+  "demo": false,
+  "links": {
+   "youpin_item": "https://www.youpin898.com/market/goods-list?listType=20&templateId={template_id}&gameId=730"
+  },
+  "now": "2026-09-27T04:00:00Z",
+  "service": {
+   "healthy": true,
+   "issues": [],
+   "last_round": {
+    "at": "2026-09-27T04:00:00Z",
+    "checked": 3,
+    "errors": 0
+   },
+   "last_round_at": "2026-09-27T03:56:00Z",
+   "paused_until": null
+  },
+  "setup": {
+   "first_round": false,
+   "market": false,
+   "push": false,
+   "youpin": true
+  },
+  "thresholds": {
+   "enter_rank": 2,
+   "max_gap_ratio": 3.0,
+   "max_market_ratio": 2.0,
+   "min_market_gap": 20.0,
+   "top_rank": 2
+  },
+  "timezone": "Asia/Shanghai",
+  "token": {
+   "days_left": 3,
+   "expires_at": "2026-09-30T04:00:00Z",
+   "valid": true
+  }
+ },
+ "overview": {
+  "accounts": {},
+  "category_groups": [
+   {
+    "key": "rifle",
+    "label": "步枪"
+   },
+   {
+    "key": "sniper",
+    "label": "狙击枪"
+   },
+   {
+    "key": "pistol",
+    "label": "手枪"
+   },
+   {
+    "key": "smg",
+    "label": "微冲"
+   },
+   {
+    "key": "heavy",
+    "label": "重型"
+   },
+   {
+    "key": "knife",
+    "label": "刀"
+   },
+   {
+    "key": "gloves",
+    "label": "手套"
+   },
+   {
+    "key": "sticker",
+    "label": "印花"
+   },
+   {
+    "key": "music_kit",
+    "label": "音乐盒"
+   },
+   {
+    "key": "graffiti",
+    "label": "涂鸦"
+   },
+   {
+    "key": "charm",
+    "label": "挂件"
+   },
+   {
+    "key": "patch",
+    "label": "布章"
+   },
+   {
+    "key": "agent",
+    "label": "探员"
+   },
+   {
+    "key": "container",
+    "label": "武器箱 / 胶囊"
+   },
+   {
+    "key": "other",
+    "label": "其他"
+   }
+  ],
+  "focus": [
+   {
+    "account_id": 1,
+    "beyond": null,
+    "buff_url": null,
+    "category": "other",
+    "checked": true,
+    "checked_at": null,
+    "cond_ahead": null,
+    "gap": 10.0,
+    "gap_ratio": 1.1,
+    "gated": false,
+    "in_trade_since": null,
+    "market": null,
+    "market_flag": null,
+    "market_gap": null,
+    "market_ratio": null,
+    "market_src": null,
+    "my_price": 100.0,
+    "own_ahead": null,
+    "platform": "youpin",
+    "purchase_no": "P1",
+    "queue": "不限",
+    "rank": 1,
+    "rank_7d": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     1
+    ],
+    "rank_change": null,
+    "ref_bid": null,
+    "ref_bid_at": null,
+    "ref_bid_pct": null,
+    "ref_bid_platforms": null,
+    "remaining_qty": 1,
+    "sell_checked_at": null,
+    "sell_depth": null,
+    "sell_min": null,
+    "star": false,
+    "stattrak": false,
+    "subcategory": null,
+    "subcategory_label": null,
+    "tag": "久经沙场",
+    "template_id": 1414,
+    "title": "AK-47 | 红线 P1",
+    "top1_price": 110.0,
+    "unreachable": null,
+    "value": null
+   },
+   {
+    "account_id": 1,
+    "beyond": null,
+    "buff_url": null,
+    "category": "other",
+    "checked": true,
+    "checked_at": null,
+    "cond_ahead": null,
+    "gap": 10.0,
+    "gap_ratio": 1.2,
+    "gated": false,
+    "in_trade_since": null,
+    "market": null,
+    "market_flag": null,
+    "market_gap": null,
+    "market_ratio": null,
+    "market_src": null,
+    "my_price": 50.0,
+    "own_ahead": null,
+    "platform": "youpin",
+    "purchase_no": "P2",
+    "queue": "不限",
+    "rank": 2,
+    "rank_7d": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     2
+    ],
+    "rank_change": null,
+    "ref_bid": null,
+    "ref_bid_at": null,
+    "ref_bid_pct": null,
+    "ref_bid_platforms": null,
+    "remaining_qty": 1,
+    "sell_checked_at": null,
+    "sell_depth": null,
+    "sell_min": null,
+    "star": false,
+    "stattrak": false,
+    "subcategory": null,
+    "subcategory_label": null,
+    "tag": "久经沙场",
+    "template_id": 1414,
+    "title": "AK-47 | 红线 P2",
+    "top1_price": 60.0,
+    "unreachable": null,
+    "value": null
+   }
+  ],
+  "generated_at": "2026-09-27T04:00:00Z",
+  "headline": {
+   "best": {
+    "count": 1,
+    "rank": 1
+   },
+   "counts": {
+    "1": 1,
+    "2": 1
+   },
+   "top_rank": 2
+  },
+  "insights": {
+   "days": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27"
+   ],
+   "moved_down": 0,
+   "moved_up": 0,
+   "top3_series": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "total": 3,
+   "unreachable_count": 1,
+   "unreachable_market": 0,
+   "unreachable_top": 1
+  },
+  "orders": [
+   {
+    "account_id": 1,
+    "beyond": null,
+    "buff_url": null,
+    "category": "other",
+    "checked": true,
+    "checked_at": null,
+    "cond_ahead": null,
+    "gap": 10.0,
+    "gap_ratio": 1.1,
+    "gated": false,
+    "in_trade_since": null,
+    "market": null,
+    "market_flag": null,
+    "market_gap": null,
+    "market_ratio": null,
+    "market_src": null,
+    "my_price": 100.0,
+    "own_ahead": null,
+    "platform": "youpin",
+    "purchase_no": "P1",
+    "queue": "不限",
+    "rank": 1,
+    "rank_7d": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     1
+    ],
+    "rank_change": null,
+    "ref_bid": null,
+    "ref_bid_at": null,
+    "ref_bid_pct": null,
+    "ref_bid_platforms": null,
+    "remaining_qty": 1,
+    "sell_checked_at": null,
+    "sell_depth": null,
+    "sell_min": null,
+    "star": false,
+    "stattrak": false,
+    "subcategory": null,
+    "subcategory_label": null,
+    "tag": "久经沙场",
+    "template_id": 1414,
+    "title": "AK-47 | 红线 P1",
+    "top1_price": 110.0,
+    "unreachable": null,
+    "value": null
+   },
+   {
+    "account_id": 1,
+    "beyond": null,
+    "buff_url": null,
+    "category": "other",
+    "checked": true,
+    "checked_at": null,
+    "cond_ahead": null,
+    "gap": 10.0,
+    "gap_ratio": 1.2,
+    "gated": false,
+    "in_trade_since": null,
+    "market": null,
+    "market_flag": null,
+    "market_gap": null,
+    "market_ratio": null,
+    "market_src": null,
+    "my_price": 50.0,
+    "own_ahead": null,
+    "platform": "youpin",
+    "purchase_no": "P2",
+    "queue": "不限",
+    "rank": 2,
+    "rank_7d": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     2
+    ],
+    "rank_change": null,
+    "ref_bid": null,
+    "ref_bid_at": null,
+    "ref_bid_pct": null,
+    "ref_bid_platforms": null,
+    "remaining_qty": 1,
+    "sell_checked_at": null,
+    "sell_depth": null,
+    "sell_min": null,
+    "star": false,
+    "stattrak": false,
+    "subcategory": null,
+    "subcategory_label": null,
+    "tag": "久经沙场",
+    "template_id": 1414,
+    "title": "AK-47 | 红线 P2",
+    "top1_price": 60.0,
+    "unreachable": null,
+    "value": null
+   },
+   {
+    "account_id": 1,
+    "beyond": 20,
+    "buff_url": null,
+    "category": "other",
+    "checked": true,
+    "checked_at": null,
+    "cond_ahead": null,
+    "gap": 21.0,
+    "gap_ratio": 3.3333,
+    "gated": true,
+    "in_trade_since": null,
+    "market": null,
+    "market_flag": null,
+    "market_gap": null,
+    "market_ratio": null,
+    "market_src": null,
+    "my_price": 9.0,
+    "own_ahead": null,
+    "platform": "youpin",
+    "purchase_no": "P3",
+    "queue": "不限",
+    "rank": null,
+    "rank_7d": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "rank_change": null,
+    "ref_bid": null,
+    "ref_bid_at": null,
+    "ref_bid_pct": null,
+    "ref_bid_platforms": null,
+    "remaining_qty": 1,
+    "sell_checked_at": null,
+    "sell_depth": null,
+    "sell_min": null,
+    "star": false,
+    "stattrak": false,
+    "subcategory": null,
+    "subcategory_label": null,
+    "tag": "久经沙场",
+    "template_id": 1414,
+    "title": "AK-47 | 红线 P3",
+    "top1_price": 30.0,
+    "unreachable": "top",
+    "value": null
+   }
+  ],
+  "valuation": null
+ }
+}

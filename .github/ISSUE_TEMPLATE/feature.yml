@@ -1,0 +1,24 @@
+name: 功能建议
+description: 想要一个新功能，或希望改变现有的行为
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SkinPulse 对悠悠、BUFF **只读**：下单、改价、撤单、自动发货一类的功能不会接受（见 [CONTRIBUTING.md](https://github.com/aft1145/skinpulse/blob/main/CONTRIBUTING.md)）。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决什么问题
+      description: 先说遇到的情况，而不是想要的做法
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 设想的做法
+  - type: dropdown
+    id: pr
+    attributes:
+      label: 愿意自己提 PR 吗
+      options: [愿意, 需要帮助, 不打算]
